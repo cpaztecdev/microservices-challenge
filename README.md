@@ -147,15 +147,6 @@ microservices-example/
     └── src/test/java/com/example/inventoryservice/...
 ```
 
-## 📝 Notas importantes
-
-- Para producción, deberías usar una base de datos en lugar de listas en memoria.<br>
-- Se recomienda añadir manejo de errores en WebClient (onStatus(...)).<br>
-- Podrías extender el proyecto con:<br>
-     - Docker Compose para levantar ambos servicios juntos.<br>
-     - Circuit Breaker (Resilience4j) para tolerancia a fallos.<br>
-     - Spring Cloud Gateway para unificar entrada de API.
-
 ---
 
 ## 👨‍💻 Autor
